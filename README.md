@@ -1,5 +1,6 @@
 # Car Price Forcasting
-- Deployment of [kaggle challenge](https://www.kaggle.com/nehalbirla/vehicle-dataset-from-cardekho#) on predictive regression on Heroku. This model aims at determing the depreciated price of the car given it's features.
+- Deployment of [kaggle challenge](https://www.kaggle.com/nehalbirla/vehicle-dataset-from-cardekho#) on predictive regression on Heroku. 
+- This model aims at determing the depreciated price of the car given it's features.
 
 
 ## Steps to Get the App Running on Local

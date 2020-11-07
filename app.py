@@ -13,7 +13,7 @@ model = pickle.load(open('random_forest_regression_model.pkl', 'rb'))
 
 standard_to = StandardScaler()
 
-@app.route('/')
+@app.route('')
 def index():
     return "Welcome to the app!"
 

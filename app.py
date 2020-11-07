@@ -9,11 +9,11 @@ from sklearn.preprocessing import StandardScaler
 from flask import Flask, render_template, request, Response
 
 app = Flask(__name__)
-model = pickle.load(open('random_forest_regression_model.pkl', 'rb'))
+model = pickle.load(open('data/random_forest_regression_model.pkl', 'rb'))
 
 standard_to = StandardScaler()
 
-@app.route('')
+@app.route('/')
 def index():
     return "Welcome to the app!"
 
